@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: rgb(65,67,69);
+    background: linear-gradient(90deg, rgba(65,67,69,1) 0%, rgba(65,67,69,1) 31%, rgba(35,37,38,1) 100%);
+}
+
+/* header 1 */
+
+.author-name a {
+    margin-top: 15px;
+    margin-left:5px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+
+.logo img {
+    height: 25px;
+    width: 20px;
+    margin-top:15px;
+    margin-left:20px;
+}
+.overlay { 
+    height: 0%; 
+    width: 100%; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background: rgb(65,67,69);
+    background: linear-gradient(90deg, rgba(65,67,69,1) 0%, rgba(65,67,69,1) 31%, rgba(35,37,38,1) 100%);
+    overflow-y: hidden;
+    -webkit-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s;
+} 
+    
+.overlay-content { 
+    position:relative;
+    top:15%;
+    width: 100%;
+    font-size:20px;
+    font-weight:700;
+    text-align: center;
+} 
+    
+.overlay a { 
+    padding: 10px; 
+    text-decoration: none;
+    font-size:20px;
+    font-weight:700;
+    color: white; 
+    display: inline-block;
+    -webkit-transition: 0.9s;
+    -o-transition: 0.9s;
+    transition: 0.9s; 
+}
+    
+.overlay a:hover, .overlay a:focus {
+    background-color:transparent;
+    color: gray;
+    font-size:20px;
+    font-weight:700;
+    padding: 10px;
+    display: inline-block;
+    -webkit-transition: 0.9s;
+    -o-transition: 0.9s;
+    transition: 0.9s; 
+} 
+    
+.overlay .closebtn { 
+    position:absolute;
+    top: 10px;
+    right:5px;
+    padding:25px;
+    font-size:50px;
+    font-weight:700;
+    margin-bottom:50px;
+}
+    
+@media screen and (max-height:450px){ 
+    .overlay {
+    overflow-y: auto;
+}}
+    
+.overlay .closebtn:hover { 
+    position:absolute;
+    top: 10px;
+    right:5px;
+    padding:25px;
+    font-size:50px;
+    font-weight:700;
+    margin-bottom:50px;
+}
+    
+    
+.menu {
+    float:right;
+    margin-top:15px;
+    margin-right:15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-weight: 50;
+    color: white;
+    border: 1px solid white;
+    border-radius: 40px 40px;
+    cursor: pointer;
+}
+.menu:hover {
+    float:right;
+    margin-top:15px;
+    margin-right:15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-weight: 50;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 40px 40px;
+    cursor: pointer;
+}
+
+li {
+    list-style-type:none;
+    display:inline-block;
+    }
+
+/* header 2 */
+
+.header p {
+    margin-top: 120px;
+    font-size: 15px;
+    font-weight: 50;
+    color: white;
+    text-indent: 20px;
+}
+
+.header h1 {
+    font-size: 26px;
+    font-weight: 100;
+    color: white;
+    text-indent: 20px;
+}
+
+/* body 1 */
+
+.img1 img {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.img1 img:hover {
+    opacity: 50%;
+    transition-duration: 200ms;
+}
+
+/* intro */
+
+.intro p {
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 50;
+    color: white;
+    text-align: justify; 
+    margin-left: 20px; 
+    margin-right: 20px;
+}
+
+.intro h1 {
+    font-size: 26px;
+    font-weight: 100;
+    color: white;
+    text-indent: 20px;
+}
+
+.img2 {
+    margin-left: 20px; 
+    margin-right: 20px;
+}
+
+.img2 img {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/* footer */
+
+.footer p {
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 50;
+    color: white;
+    text-align: center; 
+    margin-left: 20px; 
+    margin-right: 20px;
+    font-weight: 900
+}
+
+.img3 img {
+    width: 24px;
+    height: 24px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/* hover image */
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 300px;
+    width: 300px;
+    opacity: 0;
+    transition: .5s ease;
+    border-radius: 5px;
+  }
+  
+  .container:hover .overlay {
+    margin-top: 10px;
+    margin-left: 10px;
+    opacity: 75%;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .container {
+    position: relative;
+  }
