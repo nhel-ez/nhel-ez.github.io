@@ -141,6 +141,7 @@ li {
     font-weight: 50;
     color: white;
     text-indent: 20px;
+    text-align: justify;
 }
 
 .header h1 {
