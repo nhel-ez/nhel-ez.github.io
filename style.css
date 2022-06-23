@@ -169,9 +169,12 @@ li {
 }
 
 /* footer */
+.footer {
+    margin-top: 50px;
+}
 
 .footer p {
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 15px;
     font-weight: 50;
     color: white;
@@ -206,3 +209,48 @@ li {
     transform: scale(1.1);
     border-radius: 10px;
   }
+
+  /* about header */
+
+.header-nav-content p {
+    margin-top: 120px;
+    font-size: 20px;
+    font-weight: 50;
+    color: white;
+    margin-left: 20px;
+    text-align: justify;
+    margin-right: 20px;
+}
+
+.header-nav-content h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin-left: 20px;
+    text-align: justify;
+    margin-right: 20px;
+}
+/* button gradient */
+
+         
+.btn-grad {
+    background-image: linear-gradient(to right, black 0%, gray  51%, black  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 10px;
+    display: block;
+    border-color: white;
+    border-width: 1px;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: white;
+    text-decoration: none;
+  }
+ 
