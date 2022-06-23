@@ -58,7 +58,7 @@ body {
     transition: 0.3s;
   }
   
-  .overlay a:hover, .overlay a:focus {
+  .overlay a:hover {
     color: gray;
   }
   
