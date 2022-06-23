@@ -168,6 +168,7 @@ li {
     border-radius: 5px;
 }
 
+
 /* footer */
 .footer {
     margin-top: 50px;
@@ -254,3 +255,25 @@ li {
     text-decoration: none;
   }
  
+  /* contact */
+
+.contact {
+    margin-left: 20px; 
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.contact img {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+}
