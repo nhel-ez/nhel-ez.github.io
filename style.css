@@ -130,11 +130,12 @@ li {
 
 
 .header h1 {
-    font-size: 22px;
+    font-size: 40px;
     font-weight: bold;
     color: white;
     margin-left: 20px;
     text-align: justify;
+    word-spacing:-2px;
     margin-right: 20px;
 }
 
@@ -230,11 +231,12 @@ li {
 }
 
 .header-nav-content h1 {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     color: white;
     margin-left: 20px;
     text-align: justify;
+    word-spacing:-5px;
     margin-right: 20px;
 }
 /* button gradient */
