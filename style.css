@@ -231,12 +231,12 @@ li {
 }
 
 .header-nav-content h1 {
-    font-size: 40px;
+    font-size: 35px;
     font-weight: bold;
     color: white;
     margin-left: 20px;
     text-align: justify;
-    word-spacing:-5px;
+    word-spacing:-2px;
     margin-right: 20px;
 }
 
