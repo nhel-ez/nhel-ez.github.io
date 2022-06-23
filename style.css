@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&display=swap');
 
 * {
     box-sizing: border-box;
@@ -235,7 +235,7 @@ li {
 
          
 .btn-grad {
-    background-image: linear-gradient(to right, black 0%, gray  51%, black  100%);
+    background-image: linear-gradient(to right, rgb(58, 58, 58) 0%, gray  51%, rgb(58, 58, 58)  100%);
     margin: 10px;
     padding: 15px 45px;
     text-align: center;
@@ -276,4 +276,14 @@ li {
     color: white;
     font-size: 12px;
     font-weight: 700;
+}
+
+/* head showcase */
+
+.header-nav-showcase {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-weight: bold;
 }
