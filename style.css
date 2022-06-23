@@ -23,80 +23,58 @@ body {
     margin-top:15px;
     margin-left:20px;
 }
-.overlay { 
-    height: 0%; 
-    width: 100%; 
-    position: fixed; 
-    z-index: 1; 
-    top: 0; 
-    left: 0;
-    background: rgb(65,67,69);
-    background: linear-gradient(90deg, rgba(65,67,69,1) 0%, rgba(65,67,69,1) 31%, rgba(35,37,38,1) 100%);
-    overflow-y: hidden;
-    -webkit-transition: 0.6s;
-    -o-transition: 0.6s;
-    transition: 0.6s;
-} 
-    
-.overlay-content { 
-    position:relative;
-    top:15%;
+
+.overlay {
+    height: 0%;
     width: 100%;
-    font-size:20px;
-    font-weight:700;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
     text-align: center;
-} 
-    
-.overlay a { 
-    padding: 10px; 
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
     text-decoration: none;
-    font-size:20px;
-    font-weight:700;
-    color: white; 
-    display: inline-block;
-    -webkit-transition: 0.9s;
-    -o-transition: 0.9s;
-    transition: 0.9s; 
-}
-    
-.overlay a:hover, .overlay a:focus {
-    background-color:transparent;
-    color: gray;
-    font-size:20px;
-    font-weight:700;
-    padding: 10px;
-    display: inline-block;
-    -webkit-transition: 0.9s;
-    -o-transition: 0.9s;
-    transition: 0.9s; 
-} 
-    
-.overlay .closebtn { 
-    position:absolute;
-    top: 10px;
-    right:5px;
-    padding:25px;
-    font-size:50px;
-    font-weight:700;
-    margin-bottom:50px;
-}
-    
-@media screen and (max-height:450px){ 
-    .overlay {
-    overflow-y: auto;
-}}
-    
-.overlay .closebtn:hover { 
-    position:absolute;
-    top: 10px;
-    right:5px;
-    padding:25px;
-    font-size:50px;
-    font-weight:700;
-    margin-bottom:50px;
-}
-    
-    
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay {overflow-y: auto;}
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+ 
 .menu {
     float:right;
     margin-top:15px;
@@ -221,7 +199,7 @@ li {
 
 /* hover image */
 
-.overlay {
+.overlay2 {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -234,10 +212,12 @@ li {
     border-radius: 5px;
   }
   
-  .container:hover .overlay {
+  .container2:hover .overlay2 {
     margin-top: 10px;
     margin-left: 10px;
     opacity: 75%;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
   }
   
   .text {
@@ -252,6 +232,6 @@ li {
     text-align: center;
   }
 
-  .container {
+  .container2 {
     position: relative;
   }
