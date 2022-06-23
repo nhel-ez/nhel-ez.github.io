@@ -39,37 +39,37 @@ body {
     background: linear-gradient(90deg, rgba(65,67,69,1) 0%, rgba(65,67,69,1) 31%, rgba(35,37,38,1) 100%);
     overflow-y: hidden;
     transition: 0.5s;
-  }
+}
   
-  .overlay-content {
+.overlay-content {
     position: relative;
     top: 25%;
     width: 100%;
     text-align: center;
     margin-top: 30px;
-  }
+}
   
-  .overlay a {
+.overlay a {
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
     color: white;
     display: block;
     transition: 0.3s;
-  }
+}
   
-  .overlay a:hover {
+.overlay a:hover {
     color: gray;
-  }
+}
   
-  .overlay .closebtn {
+.overlay .closebtn {
     position: absolute;
     top: 20px;
     right: 45px;
     font-size: 60px;
-  }
+}
   
-  @media screen and (max-height: 450px) {
+@media screen and (max-height: 450px) {
     .overlay {overflow-y: auto;}
     .overlay a {font-size: 20px}
     .overlay .closebtn {
@@ -77,7 +77,7 @@ body {
     top: 15px;
     right: 35px;
     }
-  }
+}
  
 .menu {
     float:right;
@@ -171,6 +171,7 @@ li {
 }
 
 /* footer */
+
 .footer {
     margin-top: 50px;
 }
@@ -217,7 +218,7 @@ li {
     border-radius: 10px;
   }
 
-  /* about header */
+/* about header */
 
 .header-nav-content p {
     margin-top: 120px;
@@ -238,9 +239,9 @@ li {
     word-spacing:-5px;
     margin-right: 20px;
 }
-/* button gradient */
 
-         
+/* button gradient */
+      
 .btn-grad {
     background-image: linear-gradient(to right, rgb(58, 58, 58) 0%, gray  51%, rgb(58, 58, 58)  100%);
     margin: 10px;
@@ -254,36 +255,13 @@ li {
     display: block;
     border-color: white;
     border-width: 1px;
-  }
+}
 
-  .btn-grad:hover {
+.btn-grad:hover {
     background-position: right center; /* change the direction of the change here */
     color: white;
     text-decoration: none;
-  }
- 
-  /* contact */
-
-.contact {
-    margin-left: 20px; 
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
-
-.contact img {
-    width: 24px;
-    height: 24px;
-    margin-left: 10px;
-    margin-right: 10px;
-    border-radius: 5px;
-}
-
-.contact a {
-    text-decoration: none;
-    color: white;
-    font-size: 12px;
-    font-weight: 700;
-}
+} 
 
 /* head showcase */
 
