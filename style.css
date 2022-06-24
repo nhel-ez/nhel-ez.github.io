@@ -273,3 +273,54 @@ li {
     font-size: 24px;
     font-weight: bold;
 }
+
+/* header case study */
+
+.header-case p {
+    margin-top: 80px;
+    font-size: 15px;
+    font-weight: 50;
+    color: white;
+    margin-left: 20px;
+    text-align: justify;
+    margin-right: 20px;
+}
+
+
+.header-case h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin-left: 20px;
+    text-align: justify;
+    word-spacing:-2px;
+    margin-right: 20px;
+}
+
+.header-case h6 {
+    font-size: 15px;
+    font-weight: 50;
+    color: white;
+    margin-left: 20px;
+    text-align: justify;
+    word-spacing:-2px;
+    margin-right: 20px;
+}
+
+/* case study label */
+
+.img1 h1{
+    color: white;
+    font-size: 20px;
+}
+
+.img1 a {
+    color: white;
+    text-decoration: none;
+}
+
+/* case buttons */
+
+.case-button {
+    margin-top: 30px;
+}
