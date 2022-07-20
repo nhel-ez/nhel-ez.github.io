@@ -5,7 +5,7 @@
     type="image/png"
     href="images/Personal Website-Advance Logo.png"
   />
-  <title>DOST-FPRDI ODPS DMIS</title>
+  <title>DMIS</title>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="description" content="Leonel Esguerra" />
@@ -14,7 +14,7 @@
   <meta name="author" content="Leonel Esguerra" />
 
   <link rel="stylesheet" type="text/css" href="style.css" />
-  <head> </head>
+  </head>
   <body>
     <div class="header">
       <li class="logo">
@@ -55,42 +55,46 @@
       </li>
     </div>
 
-    <div class="header-case slide">
-      <p>Overview</p>
-      <h1>DOST-FPRDI OD-PS Document Management Information System</h1>
-      <h6>
-        DOST-FPRDI - Office of the Director - Planning Staff - Document
+    <header class="container">
+      <div class="header-case slide">
+        <p>Overview</p>
+        <h1>DOST-FPRDI OD-PS Document Management Information System</h1>
+        <h6>
+           DOST-FPRDI - Office of the Director - Planning Staff - Document
         Management Information System is a system project during the 300 hours
         on-the-job training. The system can store the incoming and outgoing
         documents, can search a particular documents and categorize the document
         based on the physical cabinet in the office.
-      </h6>
-    </div>
+        </h6>
+      </div>
+    </header>
 
     <center>
-      <div class="header-full slide">
+      <div class="header-full slide js-scroll fade-in-bottom">
         <img src="images/dmis-case.png" alt="" class="zoom" />
       </div>
     </center>
+    
+    <section class="scroll-container">
+        <img src="images/color-dmis.png" alt="" class="scroll-element js-scroll slide-left"/>
+        <h1 class="scroll-caption">Color Exploration<br><br>
+            <span>The prime color of the system is dark and white. It is helpful for the admin if they are not comfortable in the very light system. The system has a gray color that balanced the visual of the system.</span>
+        </h1>
+    </section>
 
-    <div>
-      <center>
-        <div class="img1 slide">
-          <li>
-            <img src="images/color-dmis.png" alt="" class="zoom" />
-            <h1>Color Exploration</h1>
-          </li>
-          <li>
-            <img src="images/nunito.png" alt="" class="zoom" />
-            <h1>Typography</h1>
-          </li>
-          <li>
-            <img src="images/dmis-logo.png" alt="" class="zoom" />
-            <h1>Logo</h1>
-          </li>
-        </div>
-      </center>
-    </div>
+    <section class="scroll-container">
+        <img src="images/nunito.png" alt="" class="scroll-element js-scroll slide-right"/>
+        <h1 class="scroll-caption">Typography<br><br>
+            <span>Nunito is a well-balanced sans serif typeface superfamily. It is a default Jetstream font which is one of the plugins for Laravel Frameworks and it is usually used in the web system.</span>
+        </h1>
+    </section>
+
+    <section class="scroll-container">
+        <img src="images/dmis-logo.png" alt="" class="scroll-element js-scroll slide-left"/>
+        <h1 class="scroll-caption">Logo<br><br>
+            <span>This is the original Logo of DOST-FPRDI. The logo combination is from DOST and FPRDI when the time FPRDI was under by DOST.</span>
+        </h1>
+    </section>
 
     <center>
       <div class="case-button slide">
@@ -99,7 +103,7 @@
             href="https://www.figma.com/community/file/1114921249053475523"
             target="_blank"
             style="text-decoration: none"
-            ><button class="btn-grad">Show In Figma</button></a
+            ><button class="btn-grad">View In Figma</button></a
           >
         </li>
         <li>
@@ -107,7 +111,7 @@
             href="https://github.com/nhel-ez/DMIS.git"
             target="_blank"
             style="text-decoration: none"
-            ><button class="btn-grad">Show In Github</button></a
+            ><button class="btn-grad">View In Github</button></a
           >
         </li>
         <li>
@@ -128,7 +132,7 @@
         </li>
       </div>
     </center>
-
+    
     <div class="footer slide">
       <center>
         <h2>Let's Connect</h2>
@@ -162,5 +166,6 @@
         </p>
       </center>
     </div>
+    <script src="scroll.js"></script>
   </body>
 </html>
