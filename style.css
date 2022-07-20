@@ -157,7 +157,6 @@ li {
   font-size: 15px;
   font-weight: 50;
   color: white;
-  text-align: justify;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -166,7 +165,8 @@ li {
   font-size: 26px;
   font-weight: 100;
   color: white;
-  text-indent: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .img2 {
