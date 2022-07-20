@@ -415,6 +415,11 @@ header {
   margin-right: 20px;
 }
 
+.scroll-container img {
+  min-height: 330px;
+  min-width: 330px;
+}
+
 .scroll-container h1 {
   color: white;
 }
@@ -472,8 +477,9 @@ header {
 }
 
 .scroll-element {
-  min-height: 350px;
   height: 100%;
+  min-height: 330px;
+  min-width: 330px;
   background-color: transparent;
 }
 
