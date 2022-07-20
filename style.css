@@ -405,8 +405,9 @@ header {
 }
 
 .scroll-container {
-  height: 100vh;
-  min-height: 450px;
+  height: 100%;
+  min-height: 330px;
+  min-width: 330px;
   padding: 2rem 1rem;
   display: flex;
   align-items: center;
