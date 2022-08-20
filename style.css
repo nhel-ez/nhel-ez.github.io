@@ -153,7 +153,7 @@ li {
 }
 
 .header p {
-margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 /* intro */
@@ -586,4 +586,29 @@ hr {
 
 .see-more:hover {
   opacity: 25%;
+}
+
+/* text gradient */
+
+.linear-wipe {
+  background: linear-gradient(
+    to right,
+    rgb(255, 255, 255) 20%,
+    rgb(69, 69, 69) 50%,
+    rgb(122, 122, 122) 80%,
+    rgb(129, 129, 129) 100%
+  );
+  background-size: 200% auto;
+
+  color: #000;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: shine 1s linear infinite;
+  @keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }
 }
