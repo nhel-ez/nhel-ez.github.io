@@ -250,7 +250,6 @@ li {
       #CC00FF 0%,
       #c79bff 51%,
       #8321FF 100%);
-  margin: 10px;
   padding: 20px 30px;
   text-align: center;
   text-transform: uppercase;
@@ -259,7 +258,7 @@ li {
   color: white;
   border-radius: 100px;
   display: block;
-  border-color: transparent;
+  border: 1px solid black;
   font-size: small;
 }
 
