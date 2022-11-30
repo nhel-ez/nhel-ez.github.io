@@ -259,6 +259,7 @@ li {
   color: white;
   border-radius: 100px;
   display: block;
+  border-color: transparent;
   font-size: small;
 }
 
