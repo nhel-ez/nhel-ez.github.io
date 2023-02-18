@@ -208,8 +208,10 @@ li {
   padding: 5px;
   background-color: transparent;
   transition: transform 0.5s;
-  width: 330px;
-  height: 250px;
+  max-width: 500px;
+  max-height: auto;
+  min-width: 330px;
+  min-height: auto;
   margin: 10px;
   border-radius: 10px;
 }
