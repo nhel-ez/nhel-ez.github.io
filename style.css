@@ -258,10 +258,7 @@ li {
 /* button gradient */
 
 .btn-grad {
-  background-image: linear-gradient(to right,
-      #CC00FF 0%,
-      #c79bff 51%,
-      #8321FF 100%);
+  background-image: linear-gradient(to right, #ff00cc 0%, #333399 51%, #ff00cc 100%);
   padding: 20px 30px;
   text-align: center;
   text-transform: uppercase;
@@ -331,6 +328,10 @@ li {
   margin-top: 50px;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.case-button li {
+  margin: 10px;
 }
 
 /* case header full */
