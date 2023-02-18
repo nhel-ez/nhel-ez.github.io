@@ -294,17 +294,8 @@ li {
 
 /* header case study */
 
-.header-case p {
-  margin-top: 80px;
-  font-size: 15px;
-  font-weight: 50;
-  color: white;
-  margin-left: 20px;
-  text-align: justify;
-  margin-right: 20px;
-}
-
 .header-case h1 {
+  margin-top: 80px;
   font-size: 35px;
   font-weight: bold;
   color: white;
@@ -318,8 +309,6 @@ li {
   font-weight: 50;
   color: white;
   margin-left: 20px;
-  text-align: justify;
-  word-spacing: -2px;
   margin-right: 20px;
 }
 
