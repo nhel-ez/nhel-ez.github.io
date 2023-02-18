@@ -204,14 +204,24 @@ li {
 
 /* Zoom Image */
 
+@media screen and (max-width: 2000px) {
+  .zoom {
+    width: 500px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .zoom {
+    width: 330px;
+    height: auto;
+  }
+}
+
 .zoom {
   padding: 5px;
   background-color: transparent;
   transition: transform 0.5s;
-  width: 450px;
-  height: auto;
-  min-width: 330px;
-  min-height: auto;
   margin: 10px;
   border-radius: 10px;
 }
