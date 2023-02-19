@@ -129,7 +129,7 @@ li {
 
   .header p {
     margin-top: 20px;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 50;
     color: white;
     margin-left: 10px;
@@ -139,7 +139,7 @@ li {
   }
 
   .header h1 {
-    font-size: 40px;
+    font-size: 60px;
     font-weight: bold;
     color: white;
     margin-left: 10px;
@@ -454,10 +454,6 @@ li {
   margin-right: 20px;
 }
 
-header {
-  height: 50vh;
-}
-
 .scroll-container {
   height: 100%;
   min-height: 330px;
@@ -649,7 +645,15 @@ span.gradient-text {
   background: -webkit-linear-gradient(#ff00cc, #333399);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 40px;
+  font-size: 60px;
+  font-weight: bold
+}
+
+span.gradient-text2 {
+  background: -webkit-linear-gradient(#ff00cc, #333399);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 35px;
   font-weight: bold
 }
 
@@ -678,5 +682,4 @@ img.hero {
   width: 80%;
   height: 80%;
   object-fit: cover;
-  border-radius: 1em;
 }
