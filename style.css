@@ -125,26 +125,68 @@ li {
 
 /* header 2 */
 
-.header p {
-  margin-top: 20px;
-  font-size: 15px;
-  font-weight: 50;
-  color: white;
-  margin-left: 20px;
-  margin-right: 20px;
+@media screen and (max-width: 2000px) {
+
+  .header p {
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 50;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+
+  .header h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+    word-spacing: -2px;
+    margin-right: 10px;
+    text-align: left
+  }
+
+  .cta {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    float: left;
+  }
 }
 
-.header h1 {
-  font-size: 40px;
-  font-weight: bold;
-  color: white;
-  margin-left: 20px;
-  word-spacing: -2px;
-  margin-right: 20px;
-}
+@media screen and (max-width: 600px) {
 
-.header p {
-  margin-bottom: 20px;
+  .header p {
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 50;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .header h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+    word-spacing: -2px;
+    margin-right: 10px;
+    text-align: center;
+  }
+
+  .cta {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    float: none;
+  }
 }
 
 /* intro */
@@ -630,4 +672,11 @@ h6.sub-text {
   margin-left: 40px;
   margin-right: 40px;
   margin-bottom: 50px;
+}
+
+img.hero {
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+  border-radius: 1em;
 }
