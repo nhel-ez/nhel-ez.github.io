@@ -59,7 +59,9 @@ body {
 }
 
 .overlay a:hover {
-  color: gray;
+  background: -webkit-linear-gradient(#ff00cc, #333399);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .overlay .closebtn {
@@ -102,11 +104,18 @@ body {
 }
 
 .menu:hover {
-  color: gray;
-  border: 1px solid gray;
-  border-radius: 40px 40px;
+  background: linear-gradient(#121212, #121212) padding-box,
+    linear-gradient(to right, #ff00cc, #333399) border-box;
+  border-radius: 1em;
+  border: 1px solid transparent;
   cursor: pointer;
   transition: 0.5s;
+}
+
+.menu span:hover {
+  background: -webkit-linear-gradient(#ff00cc, #333399);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 li {
@@ -244,6 +253,7 @@ li {
   color: white;
   margin-left: 20px;
   margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 .header-nav-content h1 {
@@ -267,8 +277,9 @@ li {
   color: white;
   border-radius: 100px;
   display: block;
-  border: 1px solid black;
+  border: 1px solid transparent;
   font-size: small;
+  cursor: pointer;
 }
 
 .btn-grad:hover {
@@ -427,7 +438,7 @@ header {
 }
 
 .scroll-container span {
-  color: white;
+  color: gray;
   font-size: 16px;
   font-weight: 50;
 }
@@ -590,4 +601,33 @@ hr {
 
 .see-more:hover {
   opacity: 25%;
+}
+
+span.gradient-text {
+  background: -webkit-linear-gradient(#ff00cc, #333399);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+  font-weight: bold
+}
+
+li.card {
+  background: linear-gradient(#121212, #121212) padding-box,
+    linear-gradient(to right, #ff00cc, #333399) border-box;
+  border-radius: 1em;
+  border: 1px solid transparent;
+  padding: 30px;
+  width: 300px;
+  min-height: 350px;
+  margin: 20px;
+}
+
+h6.sub-text {
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 50;
+  color: white;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 50px;
 }
