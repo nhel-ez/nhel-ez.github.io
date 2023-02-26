@@ -493,7 +493,7 @@ li {
 }
 
 .scroll-container span {
-  color: gray;
+  color: rgb(199, 199, 199);
   font-size: 16px;
   font-weight: 50;
 }
