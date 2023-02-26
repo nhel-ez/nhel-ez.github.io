@@ -239,6 +239,7 @@ li {
 /* footer */
 
 .footer {
+  position: relative;
   margin-top: 50px;
 }
 
