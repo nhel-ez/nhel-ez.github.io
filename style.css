@@ -728,7 +728,7 @@ img.hero {
 
 .card2 {
   width: 350px;
-  height: 350px%;
+  height: 350px;
   object-fit: cover;
   transition: transform 0.1s ease;
   transform-style: preserve-3d;
