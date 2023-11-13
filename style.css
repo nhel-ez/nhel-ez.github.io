@@ -674,7 +674,10 @@ li.card {
   padding: 30px;
   width: 300px;
   min-height: auto;
-  margin: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 h6.sub-text {
