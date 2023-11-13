@@ -696,8 +696,8 @@ img.hero {
 /* 3d */
 
 .card {
-  width: 400;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   transition: transform 0.1s ease;
   transform-style: preserve-3d;
   will-change: transform;
