@@ -673,7 +673,7 @@ li.card {
   border: 1px solid transparent;
   padding: 30px;
   align-items: center;
-  width: 350px;
+  min-width: 350px;
   min-height: 400px;
   margin-top: 40px;
   margin-bottom: 40px;
