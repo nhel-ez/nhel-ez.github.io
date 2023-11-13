@@ -673,7 +673,21 @@ li.card {
   border: 1px solid transparent;
   padding: 30px;
   width: 300px;
-  min-height: 350;
+  min-height: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+li.card2 {
+  background: linear-gradient(#0d1d31, #0d1d31) padding-box,
+    linear-gradient(to right, #ff00cc, #333399) border-box;
+  border-radius: 1em;
+  border: 1px solid transparent;
+  padding: 30px;
+  width: 400px;
+  min-height: 700px;
   margin-top: 40px;
   margin-bottom: 40px;
   margin-left: 20px;
