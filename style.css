@@ -687,7 +687,7 @@ li.card2 {
   border: 1px solid transparent;
   padding: 30px;
   width: 400px;
-  height: 400px;
+  min-height: 400px;
   margin-top: 40px;
   margin-bottom: 40px;
   margin-left: 20px;
