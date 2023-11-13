@@ -671,13 +671,10 @@ li.card {
     linear-gradient(to right, #ff00cc, #333399) border-box;
   border-radius: 1em;
   border: 1px solid transparent;
-  padding: 30px;
+  padding-top: 80px;
   width: 400px;
   min-height: 400px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 40px;
 }
 
 
