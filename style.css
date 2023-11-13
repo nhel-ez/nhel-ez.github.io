@@ -686,8 +686,8 @@ li.card2 {
   border-radius: 1em;
   border: 1px solid transparent;
   padding: 30px;
-  width: 350px;
-  min-height: 350px;
+  min-width: 500px;
+  min-height: 500px;
   margin-top: 40px;
   margin-bottom: 40px;
   margin-left: 20px;
@@ -727,8 +727,8 @@ img.hero {
 }
 
 .card2 {
-  width: 350px;
-  height: 350px;
+  width: 500px;
+  height: 500px;
   object-fit: cover;
   transition: transform 0.1s ease;
   transform-style: preserve-3d;
