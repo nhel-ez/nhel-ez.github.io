@@ -672,27 +672,15 @@ li.card {
   border-radius: 1em;
   border: 1px solid transparent;
   padding: 30px;
+  align-items: center;
   width: 300px;
-  min-height: auto;
+  min-height: 300px;
   margin-top: 40px;
   margin-bottom: 40px;
   margin-left: 20px;
   margin-right: 20px;
 }
 
-li.card2 {
-  background: linear-gradient(#0d1d31, #0d1d31) padding-box,
-    linear-gradient(to right, #ff00cc, #333399) border-box;
-  border-radius: 1em;
-  border: 1px solid transparent;
-  padding: 30px;
-  min-width: 500px;
-  min-height: 500px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
 
 h6.sub-text {
   margin-top: 20px;
@@ -723,20 +711,6 @@ img.hero {
 
 /* Slight parallax effect on hover */
 .card:hover .content {
-  transform: translateZ(12px);
-}
-
-.card2 {
-  width: 500px;
-  height: 500px;
-  object-fit: cover;
-  transition: transform 0.1s ease;
-  transform-style: preserve-3d;
-  will-change: transform;
-}
-
-/* Slight parallax effect on hover */
-.card2:hover .content {
   transform: translateZ(12px);
 }
 
