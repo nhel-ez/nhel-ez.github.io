@@ -755,7 +755,6 @@ body {
 }
 .testim {
 		width: 100%;
-		position: absolute;
 		top: 50%;
 		-webkit-transform: translatey(-50%);
 		-moz-transform: translatey(-50%);
@@ -835,7 +834,6 @@ body {
     -moz-transition: all .5s ease-in-out;    
     -o-transition: all .5s ease-in-out;    
     transition: all .5s ease-in-out;
-		position: relative;
 }
 
 .testim .dots .dot.active,
